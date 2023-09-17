@@ -43,16 +43,7 @@ namespace Ejercicio_4
 
             });
 
-            listEstudiante.Add(new Estudiante()
-            {
-                Nombre = "Sergio",
-                Apellido = "Alvarez",
-                Edad = 15,
-                Genero = 'M',
-                Grado = "SEXTO",
-                FechaIngreso = Convert.ToDateTime("02/03/2000")
-
-            });
+           
             Console.WriteLine("------------LISTA DE ESTUDIANTES---------------");
             foreach (var est in listEstudiante)
             {
