@@ -56,7 +56,7 @@ namespace Ejercicio_4
             Console.WriteLine("------------LISTA DE ESTUDIANTES---------------");
             foreach (var est in listEstudiante)
             {
-                Console.WriteLine(est.Nombre+ " " + est.Apellido + ", edad: " + est.Edad);
+                Console.WriteLine(est.Nombre+ " " + est.Apellido + ", edad: " + est.Edad + ", de genero: " + est.Genero);
             }
 
 
